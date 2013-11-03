@@ -1,0 +1,27 @@
+#!/bin/bash
+cat "subst.html" \
+| sed -n '/mon_title/,/\/table/ {
+    # table und tr tags entfernen
+    s/<\/\?\(table\|tr\)[^>]*>//g
+    # erste und letzte <td> bzw. <th> entfernen
+    s/^<t[dh][^>]*>\|<\/\?t[dh][^>]*>$//g
+    # </td><td> durch Tabulator ersetzen
+    s/<\/t[dh][^>]*><t[dh][^>]*>/\t/g
+    # <b> tags entfernen
+    s/<\/\?b>//g
+    # &nbsp; entfernen
+    s/\&nbsp;//gp 
+}
+/mon_list/,/\/table/ {
+    # table und tr tags entfernen
+    s/<\/\?\(table\|tr\)[^>]*>//g
+    # erste und letzte <td> bzw. <th> entfernen
+    s/^<t[dh][^>]*>\|<\/\?t[dh][^>]*>$//g
+    # </td><td> durch Tabulator ersetzen
+    s/<\/t[dh][^>]*><t[dh][^>]*>/\t/g
+    # <b> tags entfernen
+    s/<\/\?b>//g
+    # &nbsp; entfernen
+    s/\&nbsp;//gp 
+}'
+
