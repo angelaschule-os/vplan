@@ -1,0 +1,39 @@
+#!/bin/bash
+cd /usr/share/iserv/www/vplan/
+for i in schueler_subst_*.htm
+do
+    o=${i%.htm}.txt
+    cat $i | sed -n '
+        s/.*schueler_subst_001.htm.*$/LETZTE SEITE/p
+        s/<div.*datum.*>\(Stand: .*\)<\/div>/\1\n/p
+        s/<div.*mon_title.*>\(.*\)<\/div>/\1\n/p
+
+        # <table...> tags entfernen
+        # s/<table.*>//g
+
+        # </table> tags durch Leerzeile ersetzen
+        s/<\/table.*>//gp
+
+        # tr tags entfernen
+        s/<\/\?tr[^>]*>//g
+
+        # colspan Zeile retten (! am Zeilenanfang)
+        s/^<td.*colspan[^>]*>\(.*\)/!\1/g
+
+        # erste und letzte <td> bzw. <th> entfernen
+        s/^<t[dh][^>]*>\|<\/\?t[dh][^>]*>$//g
+
+        # <b> tags entfernen
+        s/<\/\?b>//g
+
+        # &nbsp; entfernen
+        s/\&nbsp;//g
+        
+        # </td><td> durch Tabulator ersetzen
+        s/<\/t[dh][^>]*><t[dh][^>]*>/\t/gp
+
+        # Zeilen mit ! am Anfang ausgeben
+        s/^!\(.*\)/\1/gp
+    ' > $o
+done
+

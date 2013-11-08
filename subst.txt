@@ -1,49 +1,24 @@
-Abwesende Lehrer	Bim, But, Kas, Kf, Kut, Ost, Rei, Rie, Shm, Sho, Sui, Tül, Wät, W-P (8-13), Wit
-Betroffene Klassen	5d, 6b, 6d, 7a, 7b, 7c, 7d, 8a, 8c, 8d, 9a, 9b, 9d, 10a, 10e, 11, 12, Ber
-Betroffene Räume	A002  Musik 2, K004 (5d), K006 (6d), K102 (6b), K103 (8a), K105 (8c), K106 (8d)
-	K201 (7a), K202 (7b), K203 (7c), K204 (7d), K205 (9a), K206 (9b), H101  Physik 1
-	H105  Physik 2, H202, H204 (NAWI), KL111, KL201, KL202
-	KL203, KL211, KL301, KL304, KL312  EK 1, KL316  KU 2
-	Lehrerzimmer
-5d	1	---	---	---		Kas	DE	Entfall	
-5d	2	Leh	DE	K004		Kas	DE	Vertr.	
-6b	2	Wet	Vf	K102		Rie	Vf	Vertr.	
-6b	6	---	---	---		Rie	DE	Entfall	
-6d	4	Erd	DE	K006		Ost	DE	Vertr.	
-7a	3	Bee	DE	K201		Ost	DE	Vertr.	
-7b	3	Wil	LA	K202		But	LA	Vertr.	
-7c	4	Bor	PH	H105	Mo-4.11. / 6	Rie	DE	Verleg.	
-7c	5	Gei	DE	K203		Rie	DE	Vertr.	
-7c	6	---	---	---		Bor	PH	Entfall	Mittagspause
-7cd	7	---	---	---		But	LA	Entfall	
-8acd	2	Win	RE	KL111		Kf	RE	Betreuung	
-8a	2	GrK	RK	K103		Sho	RK	Betreuung	
-8c	2	W-P	RK	K105		Wät	RK	Betreuung	
-8d	2	GrK	RK	K106		But	RK	Vertr.	
-8d	5	GrK	EN	K106	Do-7.11. / 7	Kas	DE	Verleg.	
-9a	1 - 2	Zak	BI	K205		Zak	BI	Raum-Vtr.	Bio-Arbeit
-9ad	3	Som	LA	KL203		Kut	LA	Vertr.	
-9a	4 - 5	---	---	---		Shm	GE	Entfall	
-9b	3	NN	RK	K206		Wät	RK	Vertr.	Arbeiten in der
-									Bibliothek; Fr.
-									Blanke
-9b	4	NN	RK	K206		Wät	RK	Vertr.	Arbeiten in der
-									Bibliothek; Fr.
-									Blanke
-9d	2	Kös	EK	H204		Kös	EK	Raum-Vtr.	Klassenarbeit
-9d	4	Pöp	PT	KL111	Di-5.11. / 1	Sho	EN	Verleg.	
-									Projekt in
-									Geschichte!
-10a	4	Gey	EK	KL211	Mo-4.11. / 10	Shl	MU	Verleg.	
-10a	5	Shl	MU	A002		Sho	EN	Vertr.	
-10a	6	---	---	---		Sho	EN	Entfall	
-10a	10	---	---	---		Gey	EK	Entfall	
-10a	11	---	---	---		Gey	EK	Entfall	
-10e	5	Hlr	RK	KL201		But	RK	Vertr.	
-11	1 - 2	+	GE2	KL304		Shm	GE2	eigenv. Arbeiten	
-11	5 - 6	+	DE3	KL301		Ost	DE3	eigenv. Arbeiten	
-11	8 - 9	+	ma1	H202		Tül	ma1	eigenv. Arbeiten	
-12	3 - 4	+	de3	KL304		Kas	de3	eigenv. Arbeiten	
-12	5 - 6	+	rel21	KL202		Kut	rel21	eigenv. Arbeiten	
-12	5 - 6	+	ku21	KL316		Rei	ku21	eigenv. Arbeiten	
-12	8 - 9	+	rel2	KL202		Sui	rel2	eigenv. Arbeiten	
+Stand: 04.11.2013, 22:39
+
+6.11.2013 Mittwoch
+
+Abwesende Lehrer	Hän, Kös, Pz
+Betroffene Klassen	5d, 7b, 7c, 11, 12, SL
+Betroffene Räume	K004 (5d), K202 (7b), H102  Chemie 1, H104  Chemie 2, H202, H204 (NAWI), H205  Biologie 1
+	KL303, Sporthalle, Fitnessraum, SL-3
+
+Klasse	Std.	Vertr.	Fach	Raum	Vertr. von	(Lehrer)	(Fach)	Art	Vertret.-Text
+5d	3	Kle	BI	H204		Kös	BI	Vertr.	
+5d	5	Woe	Vf	K004	Do-7.11. / 1	Kös	EK	Verleg.	
+7b	4	Die	EN	K202		Pz	EN	Vertr.	
+7b	5	Mar	GE		Do-7.11. / 1	Pz	EN	Verleg.	
+7c	1	---	---	---		Wil	CH	Entfall	
+7c	4	Wil	CH	H104	Mi-6.11. / 1	Kös	BI	Verleg.	
+11	1 - 2	+	en4	H202		Pz	en4	eigenv. Arbeiten	
+11	5 - 6	+	ma2	KL303		Hän	ma2	eigenv. Arbeiten	
+1112	10 - 11	+	---	---		Woe	SP	eigenv. Arbeiten	
+12	1 - 2	+	SP	Fit		Hän	SP	eigenv. Arbeiten	
+12	1 - 2	+	bi2	H205		Kös	bi2	eigenv. Arbeiten	
+SL	3 - 4	---	---	---		Hän	SL	Entfall	
+
+LETZTE SEITE
